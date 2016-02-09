@@ -8,8 +8,8 @@ namespace int_example
 	{
 		public static void Main (string[] args)
 		{
-			byte a = 255;
-			sbyte b = (sbyte)a;
+			byte a = 255;//1111 1111
+			sbyte b = (sbyte)a;//sbyte 형식으로 변환
 
 			Console.WriteLine (a);
 			Console.WriteLine (b);
