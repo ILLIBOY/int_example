@@ -8,7 +8,7 @@ namespace int_example
 	{
 		public static void Main (string[] args)
 		{
-			sbyte a = -10;
+			sbyte a = -500000000000;
 			byte b = 40;
 
 			Console.WriteLine ("a={0}, b={1}", a, b);
